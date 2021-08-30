@@ -1,0 +1,144 @@
+body {
+  height: auto;
+  background: url(images/structure.jpg); /* The structure.jpg image is a prototype of a paper sculpture series I'm working on */
+  background-size: cover; 
+}
+
+header {
+  background: rgba(211, 211, 211, 0.404); 
+  background-size: cover;
+  padding-top: 50px;
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 75px;
+  padding-bottom: 80px
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 75px;
+  padding-bottom: 80px;
+}
+
+h3 {
+  color: yellow;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 75px;
+}
+
+p, ul, ol {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 75px;
+  list-style-position: inside;
+}
+
+div p {   /* Wanted to make the paragraphs of the intro and about me sections narrower */
+  padding-right: 500px
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 30px; 
+}
+
+.about-me .intro {
+  background-color: rgba(211, 211, 211, 0.404);
+  padding-left: 10px;
+  padding-right: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+}
+
+.about-me {
+  padding-top: 30px;
+}
+
+.interests {     /* Note to self: Targeting the 'interests list' div */
+  padding-top: 30px;
+  padding-bottom: 20px;
+  line-height: 15px;
+}
+
+.inspiration {  /* Note to self: Targeting the 'inspiration list' div */
+  padding-top: 0px;
+  padding-bottom: 80px;
+  line-height: 15px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: white;
+}
+
+.contact-info {
+  padding-top: 15px;
+  padding-bottom: 200px;
+}
+
+.contact-info h3 {
+  padding-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+footer div h3 {
+  color: yellow;
+}
+
+footer {
+  background: rgba(211, 211, 211, 0.404);
+  background-size: cover;
+  padding-top: 50px;
+  border-top: 4px solid white;
+}
+
+
+hr {
+  margin-top: 100px;
+  border-color: white;
+  border-width: 5px;
+}
+
+img {  /* A long time ago I found this black & white image of a construction site on instagram, but i don't have the credits */
+  max-width: 180px;
+  margin-top: 150px;
+  margin-left: 75px;
+}
+
+
+
+
+
